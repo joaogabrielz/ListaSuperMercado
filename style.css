@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+header {
+  background-color: rgba(26, 79, 170, 0.776);
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+.lista-cadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 0;
+  padding: 0 20px;
+}
+.lista-cadastro input {
+  margin: 5px 0;
+}
+.lista-cadastro input[type="text"] {
+  flex: 1;
+  padding: 10px 15px;
+}
+.lista-cadastro input[type="number"] {
+  flex: 1;
+  padding: 10px 15px;
+}
+.lista-cadastro input[type="submit"] {
+  padding: 10px 15px;
+  background-color: rgba(26, 79, 170, 0.776);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  width: 70%;
+  margin: 5px auto;
+}
+.lista-cadastro input[type="submit"]:hover {
+  background-color: rgba(17, 53, 116, 0.776);
+  cursor: pointer;
+}
+
+.lista-cadastro input[name="limpar"] {
+  padding: 10px 15px;
+  background-color: rgba(220, 49, 37, 0.886);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  width: 50%;
+  margin: 5px auto;
+}
+.lista-cadastro input[name="limpar"]:hover {
+  background-color: rgba(173, 39, 29, 0.886);
+}
+
+.lista-produtos-single {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+.lista-produtos-single h3 {
+  flex: 1;
+  padding: 0 20px;
+}
+
+h3.price-produto {
+  text-align: right;
+  font: 17px;
+  justify-content: space-around;
+}
+h3.price-produto > span {
+  background-color: rgba(26, 79, 170, 0.776);
+  padding: 8px 10px;
+  border-radius: 20px;
+  color: white;
+}
+
+.soma-produto {
+  margin: 20px;
+  text-align: right;
+}
+
+span {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1280px) {
+  main {
+    padding: 0 400px;
+  }
+}
