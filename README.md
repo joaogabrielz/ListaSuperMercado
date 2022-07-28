@@ -13,3 +13,4 @@
 <img align="center" height="30" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"> VSCODE
 
 - Projeto proprio
+- Responsivo
