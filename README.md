@@ -2,7 +2,7 @@
 
 ## Projeto Proprio para revisao e brincar com JS 👈 
 
-<img alt="print projeto" height="300" width="280" src="print.png">
+<img alt="print projeto" height="300" width="350" src="printLista.png">
 
 ## Click para ver: <a href='https://joaogabrielz.github.io/ListaSuperMercado'>Deploy</a> 
 
